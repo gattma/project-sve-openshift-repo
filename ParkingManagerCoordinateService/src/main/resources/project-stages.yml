@@ -1,0 +1,28 @@
+swarm:
+  http:
+    port: 8080
+  contex:
+    path: "/"
+  jaeger:
+      service-name: ParkingManager-Coordinate-Service
+      agent-host: jaeger-agent
+      agent-port: 5775
+      reporter-log-spans: true
+      reporter-flush-interval: 100
+      sampler-type: const
+      sampler-parameter: 1
+---
+project:
+  stage: dev
+swarm:
+  jaeger:
+    agent-host: localhost
+    agent-port: 6832
+
+---
+project:
+  stage: openshift
+swarm:
+  jaeger:
+    agent-host: jaeger-agent
+    agent-port: 5775

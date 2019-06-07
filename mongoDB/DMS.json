@@ -1,0 +1,56 @@
+{
+  "_id": "106df740-d39b-4d2b-88dc-4ebd45f86bdb",
+  "seconds": 10,
+  "minutes": 38,
+  "degree": 45,
+  "cardinalPoint": "N"
+}
+{
+  "_id": "b4588ecd-6422-4dd2-bf30-06d776a8dd5b",
+  "seconds": 100,
+  "minutes": 10,
+  "degree": 90,
+  "cardinalPoint": "S"
+}
+{
+  "_id": "4ac86434-2512-42ff-8f62-d210365bdf63",
+  "seconds": 9,
+  "minutes": 99,
+  "degree": 4,
+  "cardinalPoint": "E"
+}
+{
+  "_id": "bd6e6053-88f8-405a-bad4-a62a5eb976b0",
+  "seconds": 45,
+  "minutes": 77,
+  "degree": 8,
+  "cardinalPoint": "W"
+}
+{
+  "_id": "fde073c1-1138-44c4-94a2-dbf6ac328b1e",
+  "seconds": 100,
+  "minutes": 10,
+  "degree": 90,
+  "cardinalPoint": "S"
+}
+{
+  "_id": "893866cb-1f41-47c9-8f2f-3961e55c7956",
+  "seconds": 10,
+  "minutes": 38,
+  "degree": 45,
+  "cardinalPoint": "N"
+}
+{
+  "_id": "681c3f2a-9cfb-4bed-9523-d737a6cbf5ad",
+  "seconds": 45,
+  "minutes": 77,
+  "degree": 8,
+  "cardinalPoint": "W"
+}
+{
+  "_id": "976a2ccc-e605-490e-8fc9-26c947c21ed5",
+  "seconds": 9,
+  "minutes": 99,
+  "degree": 4,
+  "cardinalPoint": "E"
+}

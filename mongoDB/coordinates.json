@@ -1,0 +1,68 @@
+{
+  "_id": "add8ca56-c545-446b-a043-b73b6f01bdb7",
+  "longitude_id": "106df740-d39b-4d2b-88dc-4ebd45f86bdb",
+  "city": "Hagenberg",
+  "latitude_id": "b4588ecd-6422-4dd2-bf30-06d776a8dd5b",
+  "personsLivingInCity": [
+    "b2b82cbe-ee39-4b21-b4ad-968fac66be29",
+    "158527c4-42e5-4d08-8bb2-bf6bcb991277"
+  ]
+}
+{
+  "_id": "7e6df4da-283a-44db-bbc8-b0b029b2516f",
+  "longitude_id": "bd6e6053-88f8-405a-bad4-a62a5eb976b0",
+  "city": "Linz",
+  "latitude_id": "4ac86434-2512-42ff-8f62-d210365bdf63",
+  "personsLivingInCity": [
+    "b2b82cbe-ee39-4b21-b4ad-968fac66be29"
+  ]
+}
+{
+  "_id": "abba8532-01d6-4ce7-9173-cab496a81cf8",
+  "longitude_id": "b4588ecd-6422-4dd2-bf30-06d776a8dd5b",
+  "city": "Freistadt",
+  "latitude_id": "106df740-d39b-4d2b-88dc-4ebd45f86bdb",
+  "personsLivingInCity": [
+    "158527c4-42e5-4d08-8bb2-bf6bcb991277"
+  ]
+}
+{
+  "_id": "d539e45e-0ad0-4230-9c56-112d370df578",
+  "longitude_id": "bd6e6053-88f8-405a-bad4-a62a5eb976b0",
+  "city": "Wels",
+  "latitude_id": "b4588ecd-6422-4dd2-bf30-06d776a8dd5b"
+}
+{
+  "_id": "ddf9d909-1fc4-4cce-a63f-0f0f2e6c52e7",
+  "longitude_id": "893866cb-1f41-47c9-8f2f-3961e55c7956",
+  "city": "Hagenberg",
+  "latitude_id": "fde073c1-1138-44c4-94a2-dbf6ac328b1e",
+  "personsLivingInCity": [
+    "ce8d772c-e06c-4413-90c9-7803101bacfe",
+    "ed6230a2-94a3-4b3f-9858-d58fbbe18841"
+  ]
+}
+{
+  "_id": "a79da8bc-aee7-4f88-bd97-6028d77d0b1f",
+  "longitude_id": "681c3f2a-9cfb-4bed-9523-d737a6cbf5ad",
+  "city": "Linz",
+  "latitude_id": "976a2ccc-e605-490e-8fc9-26c947c21ed5",
+  "personsLivingInCity": [
+    "ce8d772c-e06c-4413-90c9-7803101bacfe"
+  ]
+}
+{
+  "_id": "f7fade19-e8c1-450f-bff3-a3b83235401f",
+  "longitude_id": "fde073c1-1138-44c4-94a2-dbf6ac328b1e",
+  "city": "Freistadt",
+  "latitude_id": "893866cb-1f41-47c9-8f2f-3961e55c7956",
+  "personsLivingInCity": [
+    "ed6230a2-94a3-4b3f-9858-d58fbbe18841"
+  ]
+}
+{
+  "_id": "ae2cbcd1-6ba6-4506-b5aa-e09e426bedec",
+  "longitude_id": "681c3f2a-9cfb-4bed-9523-d737a6cbf5ad",
+  "city": "Wels",
+  "latitude_id": "fde073c1-1138-44c4-94a2-dbf6ac328b1e"
+}

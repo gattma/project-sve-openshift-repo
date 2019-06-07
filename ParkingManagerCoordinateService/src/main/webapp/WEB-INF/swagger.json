@@ -1,0 +1,181 @@
+{
+  "swagger": "2.0",
+  "tags": [
+    {
+      "name": "dummy"
+    },
+    {
+      "name": "parking"
+    }
+  ],
+  "paths": {
+    "/": {
+      "get": {
+        "tags": [
+          "dummy"
+        ],
+        "summary": "returns all dummy objects",
+        "description": "",
+        "operationId": "getAll",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [],
+        "responses": {
+          "default": {
+            "description": "successful operation"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "dummy"
+        ],
+        "summary": "creates a dummy",
+        "description": "",
+        "operationId": "create",
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "required": false,
+            "schema": {
+              "$ref": "#/definitions/Dummy"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "description": "successful operation"
+          }
+        }
+      }
+    },
+    "/hello": {
+      "get": {
+        "tags": [
+          "dummy"
+        ],
+        "summary": "returns the value of property1",
+        "description": "",
+        "operationId": "hello",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "schema": {
+              "type": "object",
+              "additionalProperties": {
+                "$ref": "#/definitions/JsonValue"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/parking/coordinates": {
+      "get": {
+        "tags": [
+          "parking"
+        ],
+        "summary": "returns dummy coordinates",
+        "description": "",
+        "operationId": "getCoordinates",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [],
+        "responses": {
+          "default": {
+            "description": "successful operation"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "parking"
+        ],
+        "summary": "creates the coordinates",
+        "description": "",
+        "operationId": "createCoordinates",
+        "consumes": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "required": false,
+            "schema": {
+              "$ref": "#/definitions/Coordinates"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "description": "successful operation"
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "Dummy": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "text": {
+          "type": "string"
+        }
+      }
+    },
+    "JsonValue": {
+      "type": "object",
+      "properties": {
+        "valueType": {
+          "type": "string",
+          "enum": [
+            "ARRAY",
+            "OBJECT",
+            "STRING",
+            "NUMBER",
+            "TRUE",
+            "FALSE",
+            "NULL"
+          ]
+        }
+      }
+    },
+    "Coordinates": {
+      "type": "object",
+      "required": [
+        "latitude",
+        "longitude"
+      ],
+      "properties": {
+        "city": {
+          "type": "string"
+        },
+        "longitude": {
+          "type": "number",
+          "minimum": -180.00,
+          "maximum": 180.00,
+          "exclusiveMinimum": false,
+          "exclusiveMaximum": false
+        },
+        "latitude": {
+          "type": "number",
+          "minimum": -180.00,
+          "maximum": 180.00,
+          "exclusiveMinimum": false,
+          "exclusiveMaximum": false
+        }
+      }
+    }
+  }
+}

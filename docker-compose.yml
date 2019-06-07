@@ -1,0 +1,21 @@
+version: '3'
+services:
+  mongodb:
+    image: mongo:latest
+    container_name: "mongo-dummy"
+    environment:
+      - MONGO_DATA_DIR=/data/db
+      - MONGO_LOG_DIR=/dev/null
+    #volumes:
+    #  - ./data/db:/data/db
+    ports:
+      - 27000:27017
+    command: mongod --smallfiles --logpath=/dev/null # --quiet
+
+  swagger:
+    build: ./swagger
+    container_name: "sve-ue4-swagger"
+    environment:
+      - SWAGGER_JSON=/swagger.json
+    ports:
+      - 29001:8080
